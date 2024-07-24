@@ -1,0 +1,5 @@
+id: examples.helloworld
+name: Hello world!
+description: 在启动时弹出一个 “Hello world” 提示框。
+entranceAssembly: "HelloWorldPlugin.dll"
+url: https://github.com/ClassIsland/ExamplePlugins
