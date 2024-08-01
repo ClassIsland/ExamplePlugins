@@ -8,6 +8,9 @@
       "executablePath": "E:\\Coding\\ClassIsland\\ClassIsland\\bin\\Debug\\net8.0-windows\\ClassIsland.exe",
       "commandLineArgs": "-epp E:\\Coding\\ExamplePlugins\\HelloWorldPlugin\\bin\\Debug\\net8.0-windows",
       "workingDirectory": "E:\\Coding\\ClassIsland\\ClassIsland\\bin\\Debug\\net8.0-windows\\"
+    },
+    "配置文件 2": {
+      "commandName": "Executable"
     }
   }
 }
