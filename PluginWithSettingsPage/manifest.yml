@@ -1,0 +1,8 @@
+id: examples.pluginWithSettingsPage  # 插件 id
+name: 设置页面示例插件  # 插件名称
+description: 注册了若干设置页面的插件，并可以加载和保存插件设置。  # 插件描述
+entranceAssembly: "PluginWithSettingsPage.dll"  # 插件入口程序集
+url: https://github.com/ClassIsland/ExamplePlugins  # 插件 Url
+author: HelloWRC  # 插件作者
+version: 1.0.0.0
+apiVersion: 1.4.2.0

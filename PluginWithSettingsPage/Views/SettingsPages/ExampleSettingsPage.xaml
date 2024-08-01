@@ -1,0 +1,41 @@
+﻿<ci:SettingsPageBase x:Class="PluginWithSettingsPage.Views.SettingsPages.ExampleSettingsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PluginWithSettingsPage.Views.SettingsPages"
+      xmlns:ci="http://classisland.tech/schemas/xaml/core"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ExampleSettingsPage"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      Background="{DynamicResource MaterialDesignPaper}"
+      FontFamily="{StaticResource HarmonyOsSans}"
+      TextElement.FontWeight="Regular"
+      TextElement.FontSize="14"
+      TextOptions.TextFormattingMode="Ideal"
+      TextOptions.TextRenderingMode="Auto"
+      d:DataContext="{d:DesignInstance local:ExampleSettingsPage}">
+
+    <ScrollViewer>
+        <StackPanel MaxWidth="750">
+            <!-- 示例设置1 -->
+            <ci:SettingsCard IconGlyph="CogOutline"
+                             Header="示例设置1"
+                             Description="设置描述123123123123123"
+                             Margin="0 0 0 6">
+                <ci:SettingsCard.Switcher>
+                    <TextBox Text="{Binding Plugin.Settings.Settings1}"
+                             Foreground="{DynamicResource MaterialDesignBody}"
+                             Width="150"/>
+                </ci:SettingsCard.Switcher>
+            </ci:SettingsCard>
+            <!-- 示例设置2 -->
+            <ci:SettingsCard IconGlyph="CogOutline"
+                           Header="示例设置2"
+                           Description="设置描述456456456456456"
+                           IsOn="{Binding Plugin.Settings.Settings2, Mode=TwoWay}"
+                           Margin="0 0 0 6" />
+        </StackPanel>
+    </ScrollViewer>
+</ci:SettingsPageBase>
