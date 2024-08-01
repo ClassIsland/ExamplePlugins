@@ -12,7 +12,6 @@ public class Plugin : PluginBase
     public override void Initialize(HostBuilderContext context, IServiceCollection services)
     {
         CommonDialog.ShowInfo("Hello world!");
-        new Window1().Show();
     }
 
     public override void OnShutdown()
