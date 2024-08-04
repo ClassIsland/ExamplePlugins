@@ -24,8 +24,4 @@ public class Plugin : PluginBase
         };
         services.AddSettingsPage<ExampleSettingsPage>();
     }
-
-    public override void OnShutdown()
-    {
-    }
 }

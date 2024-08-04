@@ -14,13 +14,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ClassIsland.Core.Attributes;
+using MaterialDesignThemes.Wpf;
 
 namespace PluginWithSettingsPage.Views.SettingsPages;
 
 /// <summary>
 /// ExampleSettingsPage.xaml 的交互逻辑
 /// </summary>
-[SettingsPageInfo("examples.exampleSettingsPage", "示例设置页面")]
+[SettingsPageInfo("examples.exampleSettingsPage", "示例设置页面", PackIconKind.CogOutline, PackIconKind.Cog)]
 public partial class ExampleSettingsPage : SettingsPageBase
 {
     public Plugin Plugin { get; }
