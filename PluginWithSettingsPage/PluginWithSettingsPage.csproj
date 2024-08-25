@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="ClassIsland.PluginSdk" Version="1.4.2.2-dev735">
+	  <PackageReference Include="ClassIsland.PluginSdk" Version="1.4.3.1">
 		  <ExcludeAssets>runtime</ExcludeAssets>
 	  </PackageReference>
   </ItemGroup>

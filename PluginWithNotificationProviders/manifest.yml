@@ -1,0 +1,7 @@
+id: examples.notificationProviders
+name: 提醒提供方示例
+description: 具有提醒提供方的示例插件。
+entranceAssembly: "PluginWithNotificationProviders.dll"
+url: https://github.com/ClassIsland/ExamplePlugins
+author: HelloWRC
+version: 0.0.0.0
